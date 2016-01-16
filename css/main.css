@@ -1,0 +1,111 @@
+html{
+    background: darkgrey;
+}
+
+body {
+    font: 100% Cantarell, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: darkgrey;
+    color: rgb(76, 67, 65);
+    font-weight:normal;
+    font-style:normal;
+}
+
+/* Creating styles*/
+header {
+    background-image: url("../images/boston.jpg");
+    background-position: center;
+    width: 100%;
+    padding-top: 1px;
+    overflow: hidden;
+
+}
+header h1 {
+    color: darkgoldenrod;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #fff;
+    text-align: center;
+}
+
+header h2
+{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    border: none;
+    color: red;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}
+header a:hover {
+    border: none;
+    color: white;
+}
+
+
+/*nav styles*/
+#mainNav {
+    overflow: hidden;
+
+    background-color: #000;
+}
+
+#mainNav li {
+    float: left;
+}
+
+#mainNav a {
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    border: none;
+}
+
+#mainNav a:hover {
+    color: deepskyblue;
+}
+
+#mainNav a.current {
+    color: #000;
+    cursor: default;
+}
+#mainNav{
+    padding-left: 25%;
+    padding-bottom: 2%;
+
+}
+
+#mainNav ul{
+    list-style-type: none;
+}
+
+#mainNav li {
+    margin-right: 5em;
+}
+
+#mainNav a{
+    font-size: 1.1em;
+    text-align: center;
+    padding-left: 15px;
+}
+
+#mainNav a em{
+    color: #c5c5c5;
+}
+
+#mainNav em{
+    font-size: .8em;
+    display: block;
+    text-transform: lowercase;
+}
+
+.muffin{
+    padding: 4%;
+
+}
